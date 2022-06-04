@@ -23,7 +23,7 @@ int main(void)
 		putchar((i % 10) + '0');
 		putchar((n % 10) + '0');
 		putchar((j % 10) + '0');
-	if (i != 18 || n != 19 || j != 20)
+	if (i != 17 || n != 18 || j != 19)
 	{
 		putchar(',');
 		putchar(' ');
