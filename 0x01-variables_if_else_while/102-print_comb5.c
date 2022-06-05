@@ -10,20 +10,29 @@ int main(void)
 {
 	int h;
 	int i;
+	int j;
+	int k;
 
-	for (h = 0; h <= 99; i++)
+	for (h = '0'; h <= '9'; i++)
 	{
-	for (i = h + 1; i <= 99; i++)
+	for (i = '1'; i <= '9'; i++)
 	{
-		putchar(h / 10 + '0');
-		putchar(h % 10 + '0');
+	for (j = h; j <= '9'; j++)
+	{
+	for (k = i + 1; k <= '9'; k++)
+	{
+		putchar(h);
+		putchar(i);
 		putchar(' ');
-		putchar(i / 10 + '0');
-		putchar(i % 10 + '0');
-	if (!(h == 98 && i == 99))
+		putchar(j);
+		putchar(k);
+	if (!((h == '9' && i == '8') && (j == '9') && (k == '9')))
 	{
 		putchar(',');
 		putchar(' ');
+	}
+	}
+		k = '0';
 	}
 	}
 	}
