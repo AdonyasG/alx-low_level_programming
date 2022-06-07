@@ -22,4 +22,10 @@ void print_alphabet_x10(void);
  * Return: 1 0r 0
  */
 int _islower(int c);
+/**
+ * int _isalpha(int c) -ptints if c is a lowercase or upper case 
+ * @c: character to use
+ * Return: 1 or 0
+ */
+int _isalpha(int c);
 #endif
