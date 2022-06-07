@@ -28,4 +28,10 @@ int _islower(int c);
  * Return: 1 or 0
  */
 int _isalpha(int c);
+/**
+ * int print_sign(int n) - prints + if greater than one, prints  0 if n is equals to zero and prints  - if n is less than zero
+ * @n:character to use
+ * return: 1 if greater than one; 0 if equals to zero; -1 if less than zero
+ */
+int print_sign(int n);
 #endif
