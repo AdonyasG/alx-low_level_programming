@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - entry point
+ * _islower - entry point
  *
  * @c: character to compare
  *
