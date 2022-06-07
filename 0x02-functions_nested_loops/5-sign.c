@@ -3,7 +3,7 @@
 /**
  * print_sign - entry point
  *
- * @c: character to compare
+ * @n: character to compare
  *
  * Return: 0 if its false and 1 if its true
  *
