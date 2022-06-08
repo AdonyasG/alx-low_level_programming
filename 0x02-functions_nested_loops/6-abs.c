@@ -1,9 +1,7 @@
 #include "main.h"
-
 /**
  * _abs - entry point
- *
- *@num: parameter to compare 
+ * @num: parameter to compare
  *
  * Return: num
  */
