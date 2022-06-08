@@ -3,9 +3,9 @@
 /**
  * _abs - entry point
  *
- * 
- * Return: int
+ *@num: parameter to compare 
  *
+ * Return: num
  */
 int _abs(int num)
 {
@@ -13,6 +13,4 @@ int _abs(int num)
 		return (num * -1);
 	else
 		return (num);
-	
-	return (num);
 }
