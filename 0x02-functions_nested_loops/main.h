@@ -58,4 +58,23 @@ void jack_bauer(void);
  * Return:0
  */
 void times_table(void);
+/**
+ * int add(int, int) - a function that adds two integers and returns the result.
+ *
+ * Return:0
+ */
+int add(int, int);
+/**
+ * void print_to_98(int n) - a function that prints all natural numbers from n to 98, followed by a new line
+ *
+ * @n: character to compute
+ * Return: 0
+ */
+void print_to_98(int n);
+/** 
+ * void print_times_table(int n) -  prints the n times table, starting with 0.
+ * @n: character to compute
+ * Return: 0
+ */
+void print_times_table(int n);
 #endif
