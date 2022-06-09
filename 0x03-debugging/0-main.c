@@ -3,29 +3,21 @@
 
 
 /**
-
- * main - tests function that prints if integer is positive or negative
-
- * Return: 0
-
- */
-
-
+ *
+ *  * main - check the code
+ *
+ *   *
+ *
+ *    * Return: Always 0.
+ *
+ *     */
 
 int main(void)
-  
+
 {
-  
-  int i;
-  
 
-  
-  i = 0;
-  
-  positive_or_negative(i);
-  
+	    print_alphabet(0);
 
-  
-  return (0);
-  
+	        return (0);
+
 }
