@@ -2,8 +2,7 @@
 
 /**
  * _isdigit - determine if digit
- *
- * @c: character to determin 
+ * @c: character to determing
  * Return: gives boolean
  */
 int _isdigit(int c)
