@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * *_strcat - a function that concatenates two strings.
+ * _strcat - a function that concatenates two strings.
  *
- * @*dest - character to compare
- * @*src - character to compares
+ * @dest - character to compare
+ * @src - character to compare
+ * Return: dest
  */
 char *_strcat(char *dest, char *src)
 {
@@ -22,4 +23,3 @@ char *_strcat(char *dest, char *src)
 	dest[i] = '\0';
 	return (dest);
 }
-			
