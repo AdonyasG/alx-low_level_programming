@@ -10,7 +10,7 @@ int _sq_help(int s, int n)
 {
 	if (s * s == n)
 		return (s);
-	else if(s == n || s == -n)
+	else if (s == n || s == -n)
 		return (-1);
 	else
 		return (_sq_help(s + 1, n));
