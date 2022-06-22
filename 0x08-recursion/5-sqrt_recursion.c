@@ -13,7 +13,7 @@ int _sq_help(int s, int n)
 	else if(s == n || s == -n)
 		return (-1);
 	else
-		return (_sq_help(n, s + 1));
+		return (_sq_help(s + 1, n));
 }
 /**
  * _sqrt_recursion - function that returns the natural square root of a number
@@ -22,5 +22,5 @@ int _sq_help(int s, int n)
  */
 int _sqrt_recursion(int n)
 {
-	return (_sq_help(n, 0));
+	return (_sq_help(0, n));
 }
