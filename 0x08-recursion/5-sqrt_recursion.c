@@ -9,14 +9,11 @@
 int _sq_help(int s, int n)
 {
 	if (s * s == n)
-	{
 		return (s);
-	}
-	else if(s * s > n)
-	{
+	else if(s == n || s == -n)
 		return (-1);
-	}
-	return (_sq_help(n, s + 1));
+	else
+		return (_sq_help(n, s + 1));
 }
 /**
  * _sqrt_recursion - function that returns the natural square root of a number
