@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * tortoise - prints text
+ * bmain - prints text
  * Return: void
  */
 void __attribute__ ((constructor)) bmain()
