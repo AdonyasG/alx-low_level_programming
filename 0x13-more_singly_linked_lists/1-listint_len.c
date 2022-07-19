@@ -7,14 +7,14 @@
   */
 size_t listint_len(const listint_t *h);
 {
-	int count;
+	int i;
 
-	count = 0;
+	i = 0;
 	while (h != NULL)
 	{
 		h = h->next;
 		count++;
 	}
 
-	return (count);
+	return (i);
 }
