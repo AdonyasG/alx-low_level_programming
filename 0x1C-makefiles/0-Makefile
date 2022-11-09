@@ -1,2 +1,1 @@
-all: school.c
-	cc school.c -o school
+all: school
