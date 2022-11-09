@@ -5,6 +5,6 @@ NAME = school
 default: main.c
 	$(CC) -c -o main$(OBJ) main$(SRC)
 second: school.c
-	$(CC) -c  main$(SRC) $(NAME)$(SRC) $(NAME)
+	$(CC) -c -o $(NAME)$(OBJ) $(NAME)$(SRC)
 all: main.o school.o
 	$(CC) main$(OBJ) $(NAME)$(OBJ) -o $(NAME)
